@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<script src = "../p5.js"></script>
+	<script src ="../addons/p5.dom.js"></script>
+	<script src = "../addons/p5.sound.js"></script>
+	<script src = "sketch.js"></script>
+	<link href = "style.css" rel = 'stylesheet' type = "text/css"/>
+	<link href = "https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+p {
+  text-align: center;
+  font-size: 60px;
+  margin-top:0px;
+}
+</style>
+</head>
+<body>
+
+<p id="demo"></p>
+
+<script>
+//assuming I die at 85
+var countDownDate = new Date("June 11, 2085 12:00:00").getTime();
+
+// Update the count down per second
+var x = setInterval(function() {
+    var current = new Date().getTime();
+    var timeLeft = countDownDate - current;
+    var years = Math.floor(timeLeft / (1000 * 60 * 60 * 24 * 365));
+    var days = Math.floor((timeLeft / (1000 * 60 * 60 * 24)) % 365);
+    var hours = Math.floor((timeLeft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    var minutes = Math.floor((timeLeft % (1000 * 60 * 60)) / (1000 * 60));
+    var seconds = Math.floor((timeLeft % (1000 * 60)) / 1000);
+    document.getElementById("demo").innerHTML = years + "yr " +days + "d " + hours + "h "
+    + minutes + "m " + seconds + "s ";
+    
+    // my death
+    if (timeLeft < 0) {
+        clearInterval(x);
+        document.getElementById("demo").innerHTML = "did you enjoy it?";
+    }
+}, 1000);
+</script>
+
+</body>
+</html>
+

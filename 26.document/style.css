@@ -1,0 +1,93 @@
+body{
+    background-color: #BFBFBF;
+}
+
+h2{
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 35px;
+	text-align: center;
+	color: #6B6B6B;
+}
+
+/*TEXT FOR FIRST 3 IMAGES*/
+.text1{
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 18px;
+	border: 10px solid #ccc;
+    text-align: center;
+    color: #6B6B6B;
+}
+
+/* TEXT FOR ***** */
+.text1 p1{
+	font-weight: bold;
+	color: white;
+	margin-top: 30px;
+}
+
+.text1 p2{
+	font-weight: bold;
+	color: white;
+}
+
+.text1 p{
+	margin-top: 15px;
+}
+
+/*ALIGNMENT FOR FIRST 3 PICTURE*/
+.row{
+    border: 10px solid #ccc;
+    text-align: center;
+}
+.column{
+    display: inline-block;
+    background: #ccc;
+    margin: 5px;
+}
+
+/*TEXT FOR SECOND PART */
+
+.text2{
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 18px;
+	border: 10px solid #ccc;
+    text-align: center;
+    color: #6B6B6B;
+}
+
+.text2 p1{
+	font-weight: bold;
+	color: white;
+}
+
+.text2 p2{
+	font-weight: bold;
+	color: white;
+}
+
+/**********************/
+/*TEXT FOR THE LAST TWO PICTURES*/
+/*Text are included into the row and col class*/
+
+.text3{
+	display: block;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 18px;
+    text-align: center;
+    color: #6B6B6B;
+    width:300px;
+    height: 100px;
+
+}
+
+.text4{
+	display: block;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 18px;
+    text-align: center;
+    color: #6B6B6B;
+    width:300px;
+    height: 100px;
+
+}
+

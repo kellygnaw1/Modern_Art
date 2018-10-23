@@ -1,0 +1,54 @@
+/* Style Sheet */
+
+
+body {
+	background-color: #000000;
+}
+
+h1{
+	color: #ff000080;
+	text-align: center;
+	font-size: 50px;
+	margin-top: 0px;
+	margin-left: -5px;
+	font-family: 'Anaheim', sans-serif;
+
+}
+
+h2{
+	color: #0000ff80;
+	text-align: center;
+	font-size: 50px;
+	margin-top: -99px;
+	margin-left: 5px;
+	font-family: 'Anaheim', sans-serif;
+
+}
+
+h3{
+	color: #0000ff;
+	text-align: center;
+	font-size: 15px;
+	margin-top: -35px;
+	margin-left: 0px;
+	font-family: 'Anaheim', sans-serif;
+
+}
+
+h4{
+	color: #ffffff;
+	text-align: center;
+	margin-top: 650px;
+	margin-left: 0px;
+	font-size: 10px;
+	font-family: 'Anaheim', sans-serif;
+}
+
+p{
+	color: #ffffff;
+	text-align: center;
+	margin-top: 20px;
+	margin-left: 0px;
+	font-size: 10px;
+	font-family: 'Anaheim', sans-serif;
+}

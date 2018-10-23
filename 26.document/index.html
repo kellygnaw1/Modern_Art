@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+	<body>
+
+		<link href="style.css" rel="stylesheet" type="text/css" />
+		<link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
+
+		<h2>Documentation For Final Project</h2>
+
+		<div class = "text1">
+			<p2>********************************************************************************************</p2>
+			<p>The first two images are what I've been working (struggling) on, the 3rd is a backup</p>
+			<p1>*********************************************************************************************</p1>
+		</div>
+
+		<!--classes for first 3 pictures -->
+		<div class = "row">
+
+			<div class = "column">
+				<img src="pt2.jpg" alt="Current Project" width="400" height="500">
+			</div>
+			<div class = "column">
+				<img src="pt3.jpg" alt="Functions" width="400" height="500">
+			</div>
+			<div class = "column">
+				<div class ="shawty">
+					<img src="pt1.jpg" alt="Backup Plan" width="400" height="500">
+				</div>
+			</div>
+
+		</div>
+		<!--end of classes-->
+
+		<!--Seperate class for 2nd part of the text -->
+		<div class = "text2">
+			<p2>*********************************************************************************************</p2>
+			<p>Problem with my project and a little sneak peak</p>
+			<p1>*********************************************************************************************</p1>
+		</div>
+		<!--end-->
+
+		<!--using the same class as before, squeezing the text so it is looked as an image-->
+		<div class = "row">
+			<div class ="column">
+				<div class = "text3">
+					<p>I'm trying to translate the spheres with the FFT of the song but they all seem to be moving at the same rate.
+					I took a snap shot of the console when I tried console.log(spectrum[i]) to see what values specturum[i] returned</p>
+					<br></br>
+				</div>
+			</div>
+
+			<div class = "column">
+				<img src="pt4.jpg" alt="Frequency Issue" width="300" height="300">
+			</div>
+
+			<div class = "column">
+				<img src="pt5.jpg" alt="Sneak Peak" width="300" height="300">
+			</div>
+
+			<div class ="column">
+				<div class = "text4">
+					<p>I played around with ambient lighting to give a gradient to the spheres. Since there are no x,y coordinates
+						for spheres I tried mapping the spectrum and putting that in translate. It was really laggy before since it 
+						kept translating 1000+ spheres at a time.
+					</p>
+					<br></br>
+					
+				</div>
+			</div>
+
+		</div>
+
+	</body>
+</html>

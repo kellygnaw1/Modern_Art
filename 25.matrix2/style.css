@@ -1,0 +1,26 @@
+html, body{
+    height: 100%;
+}
+body{
+    background-color: #828282;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+h2{
+    color:white;
+    font-family: 'Roboto Slab', serif;
+    font-size: 60px;
+    margin-bottom: auto;
+    
+}
+
+p{
+    color:white;
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    margin-top: 45%;
+}
